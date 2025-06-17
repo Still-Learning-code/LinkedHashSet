@@ -1,0 +1,16 @@
+fun main( args : Array<String> ) {
+
+    val sports = LinkedHashSet<String>()
+
+    sports.addAll(listOf("Baseball ", "Basketball ", "Football ", "Futbol ", "Soccer "))
+
+
+
+    println("Does it contain baseball? " + sports.contains("Baseball "))
+    println("Does it contain Hockey? " + sports.contains("Hockey"))
+
+    for (sport in sports) {
+        print(sport)
+    }
+
+}
